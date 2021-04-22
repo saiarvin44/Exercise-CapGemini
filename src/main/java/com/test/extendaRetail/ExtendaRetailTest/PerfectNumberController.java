@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/perfect")
 public class PerfectNumberController {
 
   private static Logger logger = LoggerFactory.getLogger(PerfectNumberController.class);
